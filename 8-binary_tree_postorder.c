@@ -8,7 +8,7 @@
  *
  * Return: Nothing
  */
-void binary_tree_postorder(binary_tree_t *tree, (*func)(int))
+void binary_tree_postorder(const binary_tree_t *tree, (*func)(int))
 {
 	if (!tree || !func)
 		return;
